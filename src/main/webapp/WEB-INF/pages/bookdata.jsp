@@ -134,7 +134,7 @@
           </form:label>
         </td>
         <td>
-          <form:input path="author"/>
+          <form:input path="author" readonly="${!empty book.author ? true : false}"/>
         </td>
       </tr>
       <tr>
